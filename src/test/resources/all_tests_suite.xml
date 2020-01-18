@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Pet Store Tests">
+
+    <!--    <listeners>-->
+    <!--        <listener class-name="utils.testng.listeners.TestListener"/>-->
+    <!--    </listeners>-->
+
+    <test name="Landing Page Tests">
+        <classes>
+            <class name="tests.LandingPageTests"/>
+        </classes>
+    </test>
+
+</suite>
