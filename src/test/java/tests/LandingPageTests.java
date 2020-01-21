@@ -23,9 +23,9 @@ public class LandingPageTests extends TestBase {
         DriverUtils.navigateToPage(APPLICATION_URL);
 
         LandingPage landingPage = new LandingPage();
-        landingPage.clickOnEnterStoreLink();
 
-        TopMenuPage topMenuPage = new TopMenuPage();
+        TopMenuPage topMenuPage = landingPage.clickOnEnterStoreLink();
+
         Assert.assertTrue(topMenuPage.isStoreLogoDisplayed());
     }
 }
