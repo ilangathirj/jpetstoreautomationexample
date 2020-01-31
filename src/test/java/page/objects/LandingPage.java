@@ -8,12 +8,12 @@ import waits.WaitForElement;
 public class LandingPage extends BasePage {
 
     @FindBy(css = "#Content a")
-    private WebElement enterStoreLink;
+    private WebElement storeLink;
 
     @Step("Click on Enter Store link")
     public TopMenuPage clickOnEnterStoreLink() {
-        WaitForElement.waitUntilElementIsClickable(enterStoreLink);
-        enterStoreLink.click();
+        WaitForElement.waitUntilElementIsClickable(storeLink);
+        storeLink.click();
         log().info("Clicked on Enter Store link");
         return new TopMenuPage();
     }

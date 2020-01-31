@@ -8,4 +8,10 @@
         </classes>
     </test>
 
+    <test name="Top Menu Page Tests">
+        <classes>
+            <class name="tests.TopMenuPageTests" />
+        </classes>
+    </test>
+
 </suite>

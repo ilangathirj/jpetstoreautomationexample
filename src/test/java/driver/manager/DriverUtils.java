@@ -12,4 +12,6 @@ public class DriverUtils {
     public static void navigateToPage(String pageUrl) {
         DriverManager.getWebDriver().navigate().to(pageUrl);
     }
+
+    public static String getActualUrl(){return DriverManager.getWebDriver().getCurrentUrl();}
 }

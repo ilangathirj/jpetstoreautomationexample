@@ -153,6 +153,6 @@ public class DriverEventListener implements WebDriverEventListener {
 
     @Override
     public void afterGetText(WebElement webElement, WebDriver webDriver, String s) {
-        logger.info("Taken text of WebElement. Text wast " + s);
+        logger.info("Taken text of WebElement. Text was " + s);
     }
 }
