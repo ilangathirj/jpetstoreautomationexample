@@ -14,4 +14,9 @@
         </classes>
     </test>
 
+    <test name="Main Page Tests">
+        <classes>
+            <class name="tests.MainPageTests" />
+        </classes>
+    </test>
 </suite>
