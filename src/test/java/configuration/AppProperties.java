@@ -17,4 +17,8 @@ public class AppProperties {
     public static String getCartUrl() {
         return getAllUrl().concat(ConfigurationProperties.getProperties().getProperty("cart.path"));
     }
+
+    public static String getFishUrl() {
+        return getAllUrl().concat(ConfigurationProperties.getProperties().getProperty("fish.path"));
+    }
 }
